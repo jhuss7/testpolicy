@@ -1,0 +1,2 @@
+oc patch policy policy-web-terminal-operator --type=merge -p '{"spec":{"policy-templates":[{"objectDefinition":{"spec":{"object-templates":[{"objectDefinition":{"spec":{"installPlanApproval":"Manual"}}}]}}}]}}'
+
